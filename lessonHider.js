@@ -4,7 +4,8 @@ angular.module('directivePractice').directive('lessonHider', function(){
     templateUrl: 'lessonHider.html',
     scope: {
       lesson: '=',
-      dayAlert: '&'
+      dayAlert: '&',
+      removeLesson: '&'
     },
     controller: function($scope, lessonService){
       $scope.getSchedule = lessonService.getSchedule();
