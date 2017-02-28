@@ -1,0 +1,9 @@
+.lesson-hider-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.left-lesson-hider {
+  width: 10%;
+}
